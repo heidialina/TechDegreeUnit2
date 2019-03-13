@@ -47,7 +47,11 @@ a:hover {
 	color: #a0a9af;
 }
 
-header,
+header {
+	max-width: 95%;
+	margin: 0 auto;
+}
+
 .main-footer,
 .intro {
 	max-width: 90%;
@@ -66,6 +70,8 @@ Lists
 
 .main-nav {
 	text-align: center;
+	padding-left: -40px;
+	
 }
 
 .nav-top li {
@@ -75,7 +81,7 @@ Lists
 
 .nav-foot,
 .nav-top {
-	margin: 0 auto;
+	
 }
 
 li a {
@@ -173,6 +179,17 @@ Media Quaries
 		display: none;
 	}
 	
+	.main-nav {
+		text-align: center;
+		padding-right: 40px;	
+	}
+	
+	.mobile-nav {
+		display: inline-block;
+		text-align: center;
+		padding-right: 40px;
+		margin: 0 auto;
+	}
 }
 
 @media (min-width: 768px) {
