@@ -172,7 +172,7 @@ Contact
 Media Quaries
 -----*/
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	
 	.main-footer {
 		display: none;
@@ -194,7 +194,7 @@ Media Quaries
 @media (min-width: 768px) {
 	
 	.wrap {
-		max-width: 768px;
+		max-width: 1023px;
 		margin:0 auto; 
 	}
 	
@@ -241,7 +241,7 @@ Media Quaries
 @media (min-width: 1024px) {
 	
 	.wrap {
-		max-width: 1024px;
+		max-width: 1200px;
 		margin: 0 auto; 
 	}
 	
